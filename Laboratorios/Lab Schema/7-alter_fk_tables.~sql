@@ -1,0 +1,11 @@
+alter table customer
+      add constraint fk_customer_id FOREIGNKEY (customer_id)
+      references customer(customer_id);
+
+alter table purchase_x_product
+      add constraint fk_product_id FOREIGNKEY (product_id)
+      references product(product_id);       
+
+alter table purchase_x_product
+      add constraint fk_purchase_id FOREIGNKEY (purchase_id)
+      references purchase(purchase_id ); 

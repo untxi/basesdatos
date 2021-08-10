@@ -1,0 +1,4 @@
+a. DML
+b. DDL
+c. Si siguen los registros.
+   Porque el insertar es lenguaje DML y este modifica la BD.

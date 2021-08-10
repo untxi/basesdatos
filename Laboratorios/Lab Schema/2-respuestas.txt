@@ -1,0 +1,6 @@
+Se puede crear varios esquemas: 
+	Si.
+Cuál es el propósito de crear varios esquemas: 
+	+ Crear un esquema para índices ya que eso hace que el acceso a los datos sea mas eficiente
+	+ Crear un esquema sólo para datos y estructuras
+	+ Se crean varios esquemas para prevenir perdida de datos y confusión

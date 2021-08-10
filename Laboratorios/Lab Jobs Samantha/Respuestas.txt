@@ -1,0 +1,12 @@
+Bases de Datos 1 
+Laboratorio – Jobs
+
+Parte 2
+a. Es el nombre del Job.
+b. No
+c. Nada,  porque el código del  procedimiento no debería verse afectado porque crearía un nuevo job ya que lo que cambia es el nombre.
+d. Que el job se  va a ejecutar cada segundo.
+e. yearly, monthly, weekly, daily, hourly, minutely
+f. Si end_date está en Null el job no va a parar de ejecutarse hasta que se le indique una fecha o mate el proceso.
+g. SYSTIMESTAMP El tipo de retorno es TIMESTAMP WITH TIME ZONE. Devuelve la fecha del sistema en el que reside la base de datos. 
+

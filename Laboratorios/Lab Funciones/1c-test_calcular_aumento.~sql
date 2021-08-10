@@ -1,0 +1,9 @@
+-- Test calcular_aumento
+declare
+   e_id number := 1;
+   vAumento NUMBER(8,2);
+   
+   BEGIN
+     vAumento := calcular_aumento(e_id, 0.30)
+     dbms_output.put_line(vAumento);
+   END;
