@@ -1,0 +1,8 @@
+CREATE OR REPLACE FUNCTION get_cedula(pEmpleado_id NUMBER)
+       RETURN NUMBER
+       AS
+              vCEDULA NUMBER(9);
+       BEGIN 
+         SELECT CEDULA FROM EMPLOYEE
+         WHERE EMPLOYEE.EMPLOYEE_ID=
+       

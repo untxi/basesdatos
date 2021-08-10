@@ -1,0 +1,10 @@
+-- en system
+--GRANT CREATE SEQUENCE TO ge;
+
+CREATE SEQUENCE S_EMPLOYEE_ID
+       START WITH   0
+       INCREMENT BY 1
+       MINVALUE     0
+       MAXVALUE     999999
+       NOCACHE
+       NOCYCLE;

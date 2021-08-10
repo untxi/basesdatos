@@ -1,0 +1,20 @@
+Modelo Lógico
+
+CUSTOMER
+(customer_id, nombre, apellido, teléfono)
+PK: customer_id
+
+PURCHASE
+(purchase_id, fechaSolicitud, fechaEntrega, customer_id)
+PK: purchase_id
+FK: customer_id -> id de CUSTOMER
+
+PRODUCT
+(product_id, nombre, precio)
+PK: product_id
+
+PURCHASE_x_PRODUCT
+(purchase_id, product_id, cantidad)
+PK: purchase_id, product_id
+FK: purchase_id -> id de purchase
+FK: product_id  -> id de product
